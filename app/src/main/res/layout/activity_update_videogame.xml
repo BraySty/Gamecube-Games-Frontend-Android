@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".UpdateVideogame"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/update_videogame_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:textSize="18sp"
+        android:paddingStart="10dp"
+        android:background="?attr/colorPrimary"
+        android:textColor="?attr/colorOnPrimary"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/update_videogame_id_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_videogame_id"
+        android:backgroundTint="?attr/colorSurface"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColor="?attr/colorOnSurface"
+        />
+
+    <TextView
+        android:id="@+id/update_videogame_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_videogame_id_value"
+        android:text="Título"
+        android:textSize="18sp"
+        android:paddingStart="10dp"
+        android:background="?attr/colorPrimary"
+        android:textColor="?attr/colorOnPrimary"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/update_videogame_title_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_videogame_title"
+        android:backgroundTint="?attr/colorSurface"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="?attr/colorOnSurface"
+        />
+
+    <TextView
+        android:id="@+id/update_videogame_developer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_videogame_title_value"
+        android:text="Desarrollador"
+        android:textSize="18sp"
+        android:paddingStart="10dp"
+        android:background="?attr/colorPrimary"
+        android:textColor="?attr/colorOnPrimary"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/update_videogame_developer_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_videogame_developer"
+        android:backgroundTint="?attr/colorSurface"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="?attr/colorOnSurface"
+        />
+
+    <TextView
+        android:id="@+id/update_videogame_publisher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_videogame_developer_value"
+        android:text="Distribuidor"
+        android:textSize="18sp"
+        android:paddingStart="10dp"
+        android:background="?attr/colorPrimary"
+        android:textColor="?attr/colorOnPrimary"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/update_videogame_publisher_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_videogame_publisher"
+        android:backgroundTint="?attr/colorSurface"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="?attr/colorOnSurface"
+        />
+
+    <TextView
+        android:id="@+id/update_videogame_europe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_videogame_publisher_value"
+        android:text="Europa"
+        android:textSize="18sp"
+        android:paddingStart="10dp"
+        android:background="?attr/colorPrimary"
+        android:textColor="?attr/colorOnPrimary"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/update_videogame_europe_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_videogame_europe"
+        android:backgroundTint="?attr/colorSurface"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="?attr/colorOnSurface"
+        />
+
+    <TextView
+        android:id="@+id/update_videogame_japan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_videogame_europe_value"
+        android:text="Japón"
+        android:textSize="18sp"
+        android:paddingStart="10dp"
+        android:background="?attr/colorPrimary"
+        android:textColor="?attr/colorOnPrimary"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/update_videogame_japan_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_videogame_japan"
+        android:backgroundTint="?attr/colorSurface"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="?attr/colorOnSurface"
+        />
+
+    <TextView
+        android:id="@+id/update_videogame_america"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_videogame_japan_value"
+        android:text="América"
+        android:textSize="18sp"
+        android:paddingStart="10dp"
+        android:background="?attr/colorPrimary"
+        android:textColor="?attr/colorOnPrimary"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/update_videogame_america_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/update_videogame_america"
+        android:backgroundTint="?attr/colorSurface"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="?attr/colorOnSurface"
+        />
+</LinearLayout>

@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+    <style name="Theme.Cliente" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_900</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSurface">@color/purple_300</item>
+        <item name="colorOnSurface">@color/white</item>
+
+        <item name="android:colorBackground">@color/purple_200</item>
+        <item name="colorOnBackground">?attr/colorPrimaryVariant</item>
+
+        <item name="colorError">@color/red_A700</item>
+        <item name="colorOnError">@color/white</item>
+
+        <item name="colorOutline">@color/blue_500</item>
+        <item name="colorOutlineVariant">@color/blue_200</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue_200</item>
+        <item name="colorSecondaryVariant">@color/blue_500</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

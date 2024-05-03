@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InfoVideogame">
+
+    <ImageView
+        android:id="@+id/videgame_image"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="2"
+        android:background="@drawable/videogames" />
+
+    <TextView
+        android:id="@+id/videogame_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:background="?attr/colorOnBackground"
+        android:paddingStart="10dp"
+        android:text="ID"
+        android:textColor="?attr/colorOnPrimary"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/videogame_id_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/videogame_id"
+        android:layout_weight="0.2"
+        android:background="?attr/colorSurface"
+        android:text="hola"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/videogame_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/videogame_id_value"
+        android:layout_weight="0.2"
+        android:background="?attr/colorOnBackground"
+        android:paddingStart="10dp"
+        android:text="Título"
+        android:textColor="?attr/colorOnPrimary"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/videogame_title_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/videogame_title"
+        android:layout_weight="0.2"
+        android:background="?attr/colorSurface"
+        android:text="hola"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/videogame_developer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/videogame_title_value"
+        android:layout_weight="0.2"
+        android:background="?attr/colorOnBackground"
+        android:paddingStart="10dp"
+        android:text="Desarrollador"
+        android:textColor="?attr/colorOnPrimary"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/videogame_developer_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/videogame_developer"
+        android:layout_weight="0.2"
+        android:background="?attr/colorSurface"
+        android:text="hola"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/videogame_publisher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/videogame_developer_value"
+        android:layout_weight="0.2"
+        android:background="?attr/colorOnBackground"
+        android:paddingStart="10dp"
+        android:text="Distribuidor"
+        android:textColor="?attr/colorOnPrimary"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/videogame_publisher_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/videogame_publisher"
+        android:layout_weight="0.2"
+        android:background="?attr/colorSurface"
+        android:text="hola"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/videogame_europe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/videogame_publisher_value"
+        android:layout_weight="0.2"
+        android:background="?attr/colorOnBackground"
+        android:paddingStart="10dp"
+        android:text="Europa"
+        android:textColor="?attr/colorOnPrimary"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/videogame_europe_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/videogame_europe"
+        android:layout_weight="0.2"
+        android:background="?attr/colorSurface"
+        android:text="hola"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/videogame_japan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/videogame_europe_value"
+        android:layout_weight="0.2"
+        android:background="?attr/colorOnBackground"
+        android:paddingStart="10dp"
+        android:text="Japón"
+        android:textColor="?attr/colorOnPrimary"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/videogame_japan_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/videogame_japan"
+        android:layout_weight="0.2"
+        android:background="?attr/colorSurface"
+        android:text="hola"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/videogame_america"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/videogame_japan_value"
+        android:layout_weight="0.2"
+        android:background="?attr/colorOnBackground"
+        android:paddingStart="10dp"
+        android:text="Estados Unidos de América"
+        android:textColor="?attr/colorOnPrimary"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/videogame_america_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:background="?attr/colorSurface"
+        android:text="hola"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id="@+id/videogames"
+        android:icon="@drawable/games"
+        android:title="Videojuegos"
+        />
+
+    <item
+        android:id="@+id/version"
+        android:icon="@drawable/version"
+        android:title="Versión"
+        />
+
+    <item
+        android:id="@+id/map"
+        android:icon="@drawable/location"
+        android:title="Mapa"
+        />
+</menu>

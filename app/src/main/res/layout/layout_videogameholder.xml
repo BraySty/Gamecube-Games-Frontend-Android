@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/holderTitle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="?attr/colorPrimaryVariant"
+        android:padding="5dp"
+        android:text="Título"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/holderDeveloper"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/holderDeveloper"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="?attr/colorSecondary"
+        android:padding="5dp"
+        android:paddingStart="-43dp"
+        android:text="Título"
+        android:textAlignment="center"
+        android:textColor="#5E35B1"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/holderPublisher"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/holderImage"
+        app:layout_constraintTop_toBottomOf="@+id/holderTitle" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/holderPublisher"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="?attr/colorSecondary"
+        android:padding="5dp"
+        android:paddingStart="-43dp"
+        android:text="Título"
+        android:textAlignment="center"
+        android:textColor="#5E35B1"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/holderID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/holderImage"
+        app:layout_constraintTop_toBottomOf="@+id/holderDeveloper" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/holderID"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="?attr/colorSecondary"
+        android:padding="5dp"
+        android:paddingStart="-43dp"
+        android:text="Título"
+        android:textAlignment="center"
+        android:textColor="#5E35B1"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/holderPublisher"
+        app:layout_constraintTop_toBottomOf="@+id/holderPublisher" />
+
+    <ImageView
+        android:id="@+id/holderImage"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+        android:background="@drawable/videogames"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/holderDeveloper"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/holderTitle" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/holderDelete"
+        android:layout_width="24dp"
+        android:layout_height="34dp"
+        app:icon="@drawable/trash"
+        app:iconGravity="textStart"
+        app:iconPadding="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/holderPublisher"
+        app:layout_constraintEnd_toEndOf="@+id/holderUpdate"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/holderUpdate"
+        app:layout_constraintTop_toBottomOf="@id/holderTitle"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/holderUpdate"
+        android:layout_width="24dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginEnd="5dp"
+        android:backgroundTint="?attr/colorSecondaryVariant"
+        app:icon="@drawable/refresh"
+        app:iconGravity="textStart"
+        app:iconPadding="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/holderPublisher"
+        app:layout_constraintTop_toBottomOf="@+id/holderDelete" />
+</androidx.constraintlayout.widget.ConstraintLayout>

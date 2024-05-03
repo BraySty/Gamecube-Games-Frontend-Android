@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.FragmentVersion"
+    android:background="?attr/colorSecondary">
+
+    <TextView
+        android:id="@+id/nombre_desarroladores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desarrolladores"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:paddingStart ="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="?attr/colorSecondaryVariant"
+        android:textColor="?attr/colorOnSurface"
+        />
+
+    <TextView
+        android:id="@+id/desarrollador1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aharón Javier Hernández García"
+        android:layout_below="@+id/nombre_desarroladores"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:id="@+id/desarrollador2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bray Styven Heneao López"
+        android:layout_below="@+id/desarrollador1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:id="@+id/nombre_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Versión"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_below="@id/desarrollador2"
+        android:layout_marginTop="20dp"
+        android:paddingStart ="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="?attr/colorSecondaryVariant"
+        android:textColor="?attr/colorOnSurface"
+        />
+
+    <TextView
+        android:id="@+id/version1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.0 (Estable)"
+        android:layout_below="@+id/nombre_version"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:id="@+id/version2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="28/02/2023"
+        android:layout_below="@+id/version1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        />
+</RelativeLayout>
